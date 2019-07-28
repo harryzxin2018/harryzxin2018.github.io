@@ -1,0 +1,30 @@
+body {
+	font-family: Helvetica;
+	margin:0px;
+	padding-top: 0px;
+}
+
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#header {
+	text-align: center;
+	background-color: white;
+	color: purple;
+	height:20pt;
+	padding-top: 20pt;
+}
+
+
+#images {
+	width:100%;
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 80pt
+}
