@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>作业上传</title><!-- 是网站的名字 -->
+	<link rel="stylesheet" type="text/css" href="css/publish.css"><!-- css文件路径 -->
+	<script src="js/publish.js" type="text/javascript"></script><!-- js文件路径 -->
+</head>
+
+
+<body onload = "check()">
+	<div id = title>
+		<ln>请输入今日作业</ln>
+	</div>
+	<div id = "input">
+		<form>
+			<input id = "homework" type="text" name="homework" value="今天的作业是">
+		</form> 
+	</div>
+	<div id = "publish">
+		<img onclick="publish()" src="images/button.png">
+	</div>
+</body>

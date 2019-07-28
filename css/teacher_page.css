@@ -1,0 +1,19 @@
+body {
+	font-family: Helvetica;
+}
+
+#button{
+    text-align: center;
+}
+
+#publish{
+  display: inline-block;
+  height: 60%;
+  padding: 30pt;
+}
+
+#view{
+  display: inline-block;
+  height: 60%;
+  padding: 30px;
+}

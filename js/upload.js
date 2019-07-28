@@ -1,3 +1,10 @@
+
+function check(){
+	document.getElementById("homework_today").innerHTML = localStorage.getItem("publish");
+
+}
+
+
 function login(){
 	var name = document.getElementById("name").value;
 	var password = document.getElementById("password").value;

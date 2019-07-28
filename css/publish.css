@@ -1,0 +1,34 @@
+body {
+	font-family: Helvetica;
+}
+
+lm{
+
+}
+
+#input{
+	display: block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 80pt;
+	width:100%;
+}
+
+#title{
+	text-align: center;
+	padding-top: 40pt;
+}
+
+#homework{
+	width: 300pt;
+	height:100pt;
+	
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 80pt;
+}

@@ -15,8 +15,9 @@ a {
 	text-align: center;
 	background-color: white;
 	color: purple;
-	height:20pt;
-	padding-top: 20pt;
+	height:20vh;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
 }
 
 
@@ -26,5 +27,5 @@ a {
 	padding-left: auto;
 	padding-right: auto;
 	text-align:center;
-	padding-top: 80pt
+	padding-top: 60vh;
 }
