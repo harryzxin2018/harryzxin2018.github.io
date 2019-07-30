@@ -9,3 +9,7 @@ function publish(){
 	alert(localStorage.getItem("publish"))
 	document.getElementById("homework").value =  localStorage.getItem("publish")
 }
+
+function back(){
+	window.open("teacher_page.html","_self")
+}

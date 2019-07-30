@@ -1,29 +1,90 @@
 body {
-	font-family: Helvetica;
-	margin:0px;
-	padding-top: 0px;
+	background-color: #E6F5ED;
 }
 
 
-
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
 #homework {
+	background-color: #E6F5ED;
 	text-align: center;
+	color: purple;
+	height:20pt;
+	padding-top: 30pt;
 	font-size: 30px;
-	padding-top: 10vh;
+}
+#homework_today {
+	background-color: #E6F5ED;
+	text-align: center;
+	color: purple;
+	height:20pt;
+	padding-top: 30pt;
+	font-size: 30px;
 }
 
 #publish{
+	background-color: #E6F5ED;
 	padding-left: auto;
 	padding-right: auto;
 	text-align:center;
+	padding-top: 80pt
 	padding-top: 60pt;
 	width:100%;
 }
 img {
-	width :150pt;
-	height: 150pt;
+	width :10%;
+	height: 10%;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	padding-top: 80pt;
+  	padding-top: 120pt;
+  }
+
+#button{
+	background-color: #E6F5ED;
+	text-align: center;
+	padding-top: 120pt;
+
+}
+#start{
+	width:10%;
+	display: inline-block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 0pt;
+}
+#end{
+	width:10%;
+	display: inline-block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 0pt;
+}#play{
+	width:10%;
+	display: inline-block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 0pt;
+}
+#file-upload{
+	width:10%;
+	display: inline-block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 0pt;
+}
+#rerecord{
+	width:10%;
+	display: inline-block;
+	padding-left: auto;
+	padding-right: auto;
+	text-align:center;
+	padding-top: 0pt;
 }

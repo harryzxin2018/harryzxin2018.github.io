@@ -2,28 +2,54 @@ body {
 	font-family: Helvetica;
 	margin:0px;
 	padding-top: 0px;
+	background-color: #E6F5ED;
 }
 
+#data{
+	display:block;
+	width :75%;
+	height: 80%;
+	padding-left: 10%;
+}
 
+#detail{
+	float:right;
+	height:20%;
+}
+#back{
+	float:left;
+	height:20%;
+	overflow: hidden;
 
-#homework {
+}
+
+#detail_button{
+	padding-top: 3%;
+	padding-left:30%;
+	width:30%;
+}
+#back_button{
+	padding-left:50%;
+	width:20%;
+}
+/*#group {
 	text-align: center;
-	font-size: 30px;
-	padding-top: 10vh;
+}
+#name {
+	text-align: center;
+}
+#name1{
+	width :8%;
+	height: 8%;
+	display: inline-block;
+  	margin-left: 0pt;
+
 }
 
-#publish{
-	padding-left: auto;
-	padding-right: auto;
-	text-align:center;
-	padding-top: 60pt;
-	width:100%;
-}
 img {
-	width :150pt;
-	height: 150pt;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	padding-top: 80pt;
-}
+	width :8%;
+	height: 8%;
+	display: inline-block;
+  	margin-left: 0pt;
+  /*	margin-right:;*/
+  	

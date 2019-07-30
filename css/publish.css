@@ -1,9 +1,6 @@
 body {
+	background-color: #E6F5ED;
 	font-family: Helvetica;
-}
-
-lm{
-
 }
 
 #input{
@@ -11,24 +8,38 @@ lm{
 	padding-left: auto;
 	padding-right: auto;
 	text-align:center;
-	padding-top: 80pt;
+	padding-top: 60pt;
 	width:100%;
 }
 
 #title{
 	text-align: center;
-	padding-top: 40pt;
+	padding-top: 50pt;
+	font-size: 30pt;
 }
 
 #homework{
 	width: 300pt;
 	height:100pt;
+	position: relative;
+	font-size: 15pt;
+
 	
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  padding-top: 80pt;
+#publish_button {
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	width:10vw;
+}
+
+#back{
+	position: absolute;
+  	top: 60%;
+  	left: 30%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	width:5vw;
 }

@@ -1,4 +1,5 @@
 body {
+	background-color: #E6F5ED;
 	font-family: Helvetica;
 	margin:0px;
 	padding-top: 0px;
@@ -18,6 +19,7 @@ a {
 	height:20vh;
 	padding-top: 20vh;
 	padding-bottom: 20vh;
+	background-color: #E6F5ED;
 }
 
 
