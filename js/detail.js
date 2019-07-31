@@ -10,7 +10,7 @@ function check(){
 
 function play(){
 	blobUrl = localStorage.getItem("record")
-	blobUrl = "http://localhost:8080/" + blobUrl
+	blobUrl = "http://localhost/" + blobUrl
     console.log("link", blobUrl)
     document.querySelector('.audio-node').src = blobUrl;
     console.log("execute3 check")
