@@ -190,3 +190,7 @@ function playAgain(){
     console.log("check",blobUrl)
     document.querySelector('.audio-node').src = blobUrl;
 }
+function upload(){
+    alert("已上传")   
+
+}
